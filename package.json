@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "description": "Install and run NGINX locally with NPM.",
   "bin": {
-      "nginx-start": "./nginx-start.sh",
-      "nginx-stop": "./nginx-stop.sh"
+      "nginx": "./sbin/nginx"
   },
   "scripts": {
+    "preinstall": "./preinstall.sh",
     "postinstall": "./postinstall.sh"
   },
   "repository": {
