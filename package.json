@@ -1,0 +1,19 @@
+{
+  "name": "nx-local-server",
+  "version": "0.0.0",
+  "description": "Install and run NGINX locally with NPM.",
+  "bin": "sbin/nginx",
+  "scripts": {
+    "postinstall": "./nginx-install.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lastmjs/nx-local-server.git"
+  },
+  "author": "Jordan Last <jordan.michael.last@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lastmjs/nx-local-server/issues"
+  },
+  "homepage": "https://github.com/lastmjs/nx-local-server#readme"
+}
