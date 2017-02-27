@@ -4,7 +4,8 @@
   "description": "Install and run NGINX locally with NPM.",
   "bin": "sbin/nginx",
   "scripts": {
-    "postinstall": "./nginx-install.sh"
+    "preinstall": "./preinstall.sh",
+    "postinstall": "./postinstall.sh"
   },
   "repository": {
     "type": "git",
