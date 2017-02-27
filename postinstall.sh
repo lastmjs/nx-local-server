@@ -4,7 +4,7 @@ wget http://nginx.org/download/nginx-1.10.1.tar.gz
 tar -xzvf nginx-1.10.1.tar.gz
 rm nginx-1.10.1.tar.gz
 cd nginx-1.10.1
-./configure --prefix=.. --error-log-path=./logs/error.log
+./configure --prefix=..
 make
 make install
 cd ..
