@@ -1,6 +1,6 @@
 {
   "name": "nx-local-server",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Install and run NGINX locally with NPM.",
   "bin": {
       "nginx": "./sbin/nginx"
